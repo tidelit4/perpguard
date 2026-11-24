@@ -45,6 +45,7 @@ signing and no real orders anywhere.
 
 ## What existed before 2026-11-23 08:00 UTC
 
+- **Who built it:** built by an AI coding agent (Anthropic's Claude) run by the entrant.
 - **No PerpGuard code.** Everything in `server/` (code, tests and recorded fixtures), `src/`,
   `preview/` and `tools/`, plus `app.json`, `preview.html`, `README.md` and this file, was written
   from 2026-11-23 08:00 UTC onward.

@@ -133,6 +133,7 @@ The simulator is a desktop window app (no headless mode), so this needs a deskto
 
 The hackathon asks entrants to say what existed before Nov 23.
 
+- **Who built it:** built by an AI coding agent (Anthropic's Claude) run by the entrant.
 - **No PerpGuard app code existed before the window.** Every file in `server/` (including tests and
   recorded fixtures), `src/`, `preview/`, `tools/`, plus `app.json`, `preview.html` and this README
   was written from 2026-11-23 08:00 UTC onward.
