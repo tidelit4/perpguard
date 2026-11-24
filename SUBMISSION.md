@@ -1,7 +1,7 @@
 # PerpGuard: DoraHacks "Heads Up" submission draft
 
 **Track:** 02 Crypto & DeFi (Hyperliquid)
-**Repo:** _(public URL, filled in at publish time)_
+**Repo:** https://github.com/tidelit4/perpguard
 **Video:** _(final upload URL)_. The draft `docs/demo_draft.mp4` (2:27, not committed) is built from official-simulator screenshots.
 
 ## Short description (one paragraph)
