@@ -14,6 +14,11 @@ toward liquidation, the glasses interrupt with a concrete fix, and you answer wi
 
 ![Liquidation alert with a guard proposal (Even Hub simulator)](docs/shots/05_alert.png)
 
+**Demo video (2:27, captioned, no audio):**
+[demo_draft.mp4](https://github.com/tidelit4/perpguard/releases/download/v0.1-demo/demo_draft.mp4)
+on the [v0.1-demo release](https://github.com/tidelit4/perpguard/releases/tag/v0.1-demo). It walks the
+same official-simulator screens as below: glance, positions, detail, alert, paper fix and the glance after.
+
 ## Why read-only + paper
 
 - **No keys anywhere.** The glasses app talks only to the PerpGuard backend, and the backend only

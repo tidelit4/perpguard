@@ -2,7 +2,12 @@
 
 **Track:** 02 Crypto & DeFi (Hyperliquid)
 **Repo:** https://github.com/tidelit4/perpguard
-**Video:** _(final upload URL)_. The draft `docs/demo_draft.mp4` (2:27, not committed) is built from official-simulator screenshots.
+**Video:** https://github.com/tidelit4/perpguard/releases/download/v0.1-demo/demo_draft.mp4
+(release page: https://github.com/tidelit4/perpguard/releases/tag/v0.1-demo). It is a 2:27 silent,
+captioned walk-through (1280x720 H.264, a title card plus 12 scenes) made from the glasses framebuffer
+of the official Even Hub simulator 0.9.5 on live mainnet data (2026-11-24): glance, positions, detail,
+guard proposal, cross-margin alert, swipe = next option, tap = paper fill, alert cleared, isolated
+alert with capped add-margin, the phone-side settings form, and the glance after a paper close.
 
 ## Short description (one paragraph)
 
