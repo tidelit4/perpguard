@@ -1,0 +1,17 @@
+{
+  "package_id": "io.perpguard.glasses",
+  "edition": "202601",
+  "name": "PerpGuard",
+  "version": "0.1.0",
+  "min_app_version": "2.2.10",
+  "min_sdk_version": "0.0.16",
+  "entrypoint": "index.html",
+  "permissions": [
+    {
+      "name": "network",
+      "desc": "Reads your positions and records paper trades through the PerpGuard backend. Read-only market data; no keys, no real orders.",
+      "whitelist": ["http://localhost:8787"]
+    }
+  ],
+  "supported_languages": ["en"]
+}

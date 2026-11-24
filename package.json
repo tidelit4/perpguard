@@ -1,0 +1,26 @@
+{
+  "name": "perpguard",
+  "private": true,
+  "version": "0.1.0",
+  "type": "module",
+  "description": "PerpGuard: a Hyperliquid liquidation guard for Even Realities G2 (paper-trading write path)",
+  "license": "MIT",
+  "scripts": {
+    "dev": "vite",
+    "server": "node server/index.js",
+    "test": "node --test server/test/",
+    "build": "tsc --noEmit && vite build",
+    "preview": "vite preview",
+    "pack": "npm run build && evenhub pack app.json dist -o perpguard.ehpk",
+    "simulate": "evenhub-simulator http://localhost:5173"
+  },
+  "dependencies": {
+    "@evenrealities/even_hub_sdk": "0.0.16"
+  },
+  "devDependencies": {
+    "@evenrealities/evenhub-cli": "0.2.0",
+    "@evenrealities/evenhub-simulator": "0.9.5",
+    "typescript": "^5.7.0",
+    "vite": "^5.4.0"
+  }
+}

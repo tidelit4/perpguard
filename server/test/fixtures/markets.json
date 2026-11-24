@@ -1,0 +1,50 @@
+[
+ {
+  "universe": [
+   {
+    "szDecimals": 5,
+    "name": "BTC",
+    "maxLeverage": 40,
+    "marginTableId": 56
+   },
+   {
+    "szDecimals": 2,
+    "name": "SOL",
+    "maxLeverage": 20,
+    "marginTableId": 54
+   }
+  ]
+ },
+ [
+  {
+   "funding": "0.0000090961",
+   "openInterest": "36834.8790399999",
+   "prevDayPx": "60951.0",
+   "dayNtlVlm": "4250371635.9746446609",
+   "premium": "-0.0006321812",
+   "oraclePx": "63273.0",
+   "markPx": "63245.0",
+   "midPx": "63232.5",
+   "impactPxs": [
+    "63232.0",
+    "63233.0"
+   ],
+   "dayBaseVlm": "68911.5865199995"
+  },
+  {
+   "funding": "0.0000125",
+   "openInterest": "4116274.0200000042",
+   "prevDayPx": "70.489",
+   "dayNtlVlm": "207959038.3375906348",
+   "premium": "-0.0007038314",
+   "oraclePx": "76.865",
+   "markPx": "76.828",
+   "midPx": "76.8075",
+   "impactPxs": [
+    "76.807",
+    "76.8109"
+   ],
+   "dayBaseVlm": "2821417.2000000039"
+  }
+ ]
+]

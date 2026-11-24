@@ -1,0 +1,23 @@
+node_modules/
+dist/
+*.ehpk
+# paper ledgers (default server/data/ledger.json, or LEDGER_FILE anywhere)
+server/data/
+ledger*.json
+*ledger*.json
+# secrets / local config
+.env
+.env.*
+*.pem
+*.key
+keys/
+# run artefacts
+*.log
+/shots/
+/test-results/
+# draft demo video (the final one is uploaded separately)
+docs/*.mp4
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/

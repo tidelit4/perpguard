@@ -1,0 +1,113 @@
+[
+ {
+  "universe": [
+   {
+    "szDecimals": 5,
+    "name": "BTC",
+    "maxLeverage": 40,
+    "marginTableId": 56
+   },
+   {
+    "szDecimals": 0,
+    "name": "DOGE",
+    "maxLeverage": 10,
+    "marginTableId": 52
+   },
+   {
+    "szDecimals": 1,
+    "name": "STRK",
+    "maxLeverage": 5,
+    "marginTableId": 5
+   },
+   {
+    "szDecimals": 1,
+    "name": "TRUMP",
+    "maxLeverage": 10,
+    "marginTableId": 52
+   },
+   {
+    "szDecimals": 3,
+    "name": "XMR",
+    "maxLeverage": 5,
+    "marginTableId": 5
+   }
+  ]
+ },
+ [
+  {
+   "funding": "0.0000125",
+   "openInterest": "37216.26388",
+   "prevDayPx": "60705.0",
+   "dayNtlVlm": "5006742832.0288286209",
+   "premium": "-0.0002443275",
+   "oraclePx": "61393.0",
+   "markPx": "61376.6",
+   "midPx": "61377.5",
+   "impactPxs": [
+    "61377.0",
+    "61378.0"
+   ],
+   "dayBaseVlm": "80726.54791"
+  },
+  {
+   "funding": "-0.00000395",
+   "openInterest": "441214242.0",
+   "prevDayPx": "0.055139",
+   "dayNtlVlm": "10678305.6182889957",
+   "premium": "-0.0008075843",
+   "oraclePx": "0.05696",
+   "markPx": "0.056924",
+   "midPx": "0.056909",
+   "impactPxs": [
+    "0.056909",
+    "0.056914"
+   ],
+   "dayBaseVlm": "187161801.0"
+  },
+  {
+   "funding": "0.0000125",
+   "openInterest": "624592833.6000000238",
+   "prevDayPx": "0.03123",
+   "dayNtlVlm": "2000083.1203929996",
+   "premium": "-0.000619195",
+   "oraclePx": "0.0323",
+   "markPx": "0.03228",
+   "midPx": "0.03227",
+   "impactPxs": [
+    "0.03225",
+    "0.03228"
+   ],
+   "dayBaseVlm": "61430087.0999999866"
+  },
+  {
+   "funding": "-0.0000845129",
+   "openInterest": "9851134.8000000007",
+   "prevDayPx": "0.89265",
+   "dayNtlVlm": "10595083.4418589994",
+   "premium": "-0.0012212885",
+   "oraclePx": "0.8925",
+   "markPx": "0.8911",
+   "midPx": "0.891",
+   "impactPxs": [
+    "0.89075",
+    "0.89141"
+   ],
+   "dayBaseVlm": "11580137.8999999985"
+  },
+  {
+   "funding": "0.0000798767",
+   "openInterest": "132518.384",
+   "prevDayPx": "492.88",
+   "dayNtlVlm": "16051384.8206700012",
+   "premium": "0.0012453938",
+   "oraclePx": "507.47",
+   "markPx": "508.19",
+   "midPx": "508.195",
+   "impactPxs": [
+    "508.102",
+    "508.326"
+   ],
+   "dayBaseVlm": "31817.319"
+  }
+ ]
+]

@@ -1,0 +1,37 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>PerpGuard - G2 browser preview</title>
+    <link rel="icon" href="data:," />
+    <style>
+      body { margin: 0; background: #232323; color: #e5e5e5; font: 14px/1.4 system-ui, sans-serif; }
+      main { display: flex; gap: 24px; padding: 20px; flex-wrap: wrap; align-items: flex-start; }
+      .glasses { background: #111; padding: 14px; border-radius: 14px; }
+      #g2 { width: 576px; height: 288px; display: block; image-rendering: pixelated; border-radius: 6px; }
+      .ctl { margin-top: 10px; display: flex; gap: 8px; }
+      .ctl button { background: #333; color: #e5e5e5; border: 1px solid #555; border-radius: 6px; padding: 6px 12px; cursor: pointer; }
+      .hint { opacity: .6; font-size: 12px; margin-top: 6px; }
+      #app { min-width: 320px; }
+    </style>
+  </head>
+  <body>
+    <main>
+      <div class="glasses">
+        <canvas id="g2"></canvas>
+        <div class="ctl">
+          <button data-g2="click">Tap (yes)</button>
+          <button data-g2="up">Swipe up</button>
+          <button data-g2="down">Swipe down (no / next)</button>
+          <button data-g2="double_click">Double-tap (exit)</button>
+        </div>
+        <div class="hint">Keys: Enter = tap, arrows = swipe, D = double-tap. Browser approximation of the G2 display; the Even Hub simulator is the reference.</div>
+      </div>
+      <div id="app">phone side</div>
+    </main>
+    <!-- The host stand-in must exist before the app's first bridge call; module scripts run in order. -->
+    <script type="module" src="/preview/g2-host.ts"></script>
+    <script type="module" src="/src/main.ts"></script>
+  </body>
+</html>
